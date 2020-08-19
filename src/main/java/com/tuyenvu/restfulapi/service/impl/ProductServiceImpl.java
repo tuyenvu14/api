@@ -15,16 +15,10 @@ import java.util.List;
 @Service
 public class ProductServiceImpl implements ProductService {
 
-    @Autowired
     private ProductMapper mapper;
 
-    @Autowired
     private ProductRepository repository;
 
-//    public ProductServiceImpl(ProductMapper mapper, ProductRepository repository) {
-//        this.mapper = mapper;
-//        this.repository = repository;
-//    }
 
     @Override
     public List<ProductDto> getAll() {

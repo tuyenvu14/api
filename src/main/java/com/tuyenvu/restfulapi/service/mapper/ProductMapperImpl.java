@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class ProductMapperDecorator implements ProductMapper {
+public abstract class ProductMapperImpl implements ProductMapper {
 
     @Override
     public ProductEntity convertEntity(ProductDto dto) {
